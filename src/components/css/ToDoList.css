@@ -1,0 +1,31 @@
+.todo-task {
+    padding: 5%;
+    text-align: left;
+
+}
+.btn-clear {
+ 
+    border-style: none;
+    padding: 1em 1.5em;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px rgba(238, 238, 238, 0.568);
+    border-radius: 10px;
+  }
+  
+  .btn-clear {
+    background-image: linear-gradient(
+      to right,
+      #77a1d3 0%,
+      #79cbca 51%,
+      #77a1d3 100%
+    );
+  }
+
+.btn-clear:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }

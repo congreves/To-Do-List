@@ -1,0 +1,71 @@
+div.todo-task {
+padding: 0%;
+margin-top: 10%;
+ 
+}
+div.todo {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.todo {
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  color: rgb(41, 134, 129);
+  background: rgba(255, 255, 255, 0.521);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(34, 33, 33, 0.137);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.096);
+  margin-top: 5%;
+  margin-bottom: 10%;
+
+  /* From https://css.glass */
+
+ 
+}
+
+.todo.strike {
+  color: rgba(226, 222, 222, 0.801);
+  background: rgba(219, 219, 219, 0.287);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0);
+  opacity: 40%;
+}
+
+  .buttons {
+    background-color: transparent;
+  }
+      
+   
+  button.btn-add {
+    
+    color: #49bea1;
+    background-color: transparent;
+    border-style: none;
+    font-size: 1em;
+    
+ 
+
+    
+  }
+  button.btn-delete {
+  
+    color: #49bea1;
+    background-color: transparent;
+    border-style: none;
+    font-size: 1em;
+    
+ 
+
+    
+  }
+
+ 
